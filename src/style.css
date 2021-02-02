@@ -7,10 +7,33 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    height: 100%;
     background-color: rgb(164, 238, 234);
 }
 #timer{
     width: 350px;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time {
+    font-size: 96px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+button {
+    font-weight: 900;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus {
+    width: 3rem;
+}
+.start {
+    width: 6rem;
+}
+.reset {
+    width: 6rem;
 }

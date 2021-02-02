@@ -67,10 +67,7 @@ const Timer = () => {
                     className={"plus"}>
                     {"+"}
                 </button>
-                <button
-                    type={"button"}
-                    onClick={() => setIsActive(!isActive)}
-                    className={"start"}>
+                <button type={"button"} onClick={() => setIsActive(!isActive)}>
                     {isActive ? "STOP" : "START"}
                 </button>
                 <button
